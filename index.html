@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="description" content="CampusBite — Healthy Meals. Happy Students. College-focused food delivery and ordering web app for university students and hostel rooms.">
+  <meta name="theme-color" content="#F97316">
+  <title>CampusBite — Healthy Meals. Happy Students.</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20%220%22%20100%20100%22><text y=%22.9em%22 font-size=%2290%22>🍔</text></svg>">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Root Host Element -->
+  <div id="app-root">
+    <!-- Initial Loading State (Replaced immediately on script load) -->
+    <div style="min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: 'Poppins', sans-serif; background: #FDFBF7; color: #1F2937;">
+      <div style="font-size: 3.5rem; margin-bottom: 12px; animation: bounce 1s infinite alternate;">🍔</div>
+      <h2 style="font-weight: 800; font-size: 1.5rem; letter-spacing: -0.5px;">Campus<span style="color: #F97316;">Bite</span></h2>
+      <p style="color: #6B7280; font-size: 0.9rem; margin-top: 4px;">Loading healthy meals for happy students...</p>
+    </div>
+  </div>
+
+  <!-- Core Data & State Modules -->
+  <script src="js/data/mockData.js"></script>
+  <script src="js/state/store.js"></script>
+
+  <!-- Component Modules -->
+  <script src="js/components/Navbar.js"></script>
+  <script src="js/components/Hero.js"></script>
+  <script src="js/components/FoodComponents.js"></script>
+  <script src="js/components/RestaurantComponents.js"></script>
+  <script src="js/components/CartAndCheckout.js"></script>
+  <script src="js/components/GroupOrderModal.js"></script>
+  <script src="js/components/Chatbot.js"></script>
+  <script src="js/components/Dashboards.js"></script>
+  <script src="js/components/ProfileAndStaticViews.js"></script>
+
+  <!-- Main Application Orchestrator -->
+  <script src="js/app.js"></script>
+</body>
+</html>
